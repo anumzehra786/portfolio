@@ -1,0 +1,52 @@
+@media(max-width:1024px){
+    .matrix-text{
+        font-size: 42px;
+        text-align: center;
+    }
+
+    .name h1{
+        margin: 0;
+        text-align: center;
+    }
+
+    .wrapper{
+        margin: 0;
+        display: inline;
+    }
+
+    .circles{
+        margin: 0;
+    }
+
+    .data-one,.data-two,.data-three{
+margin: 0;
+    }
+
+    .c1 + p{
+font-size: 19px;
+    }
+}
+
+@media(max-width:768px){
+        .matrix-text{
+            margin-top: 100px;
+        }
+
+        .c1 h1{
+            margin: auto;
+        }
+  .name h1:nth-child(4){
+            margin: auto;
+            font-size: 60px;
+        }
+
+        .box p{
+            font-size: 10px;
+        }
+}
+
+@media(max-width:425px){
+    .matrix-text{
+        font-size: 25px;
+    }
+}
