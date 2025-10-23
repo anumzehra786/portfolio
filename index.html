@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
-    <link rel="icon" href="../Adv. Web/images/nature1.jpg">
+    <link rel="icon" href="../Adv. Web/vs code/images/nature1.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -122,7 +122,7 @@
 
     <main id="skills">
         <div class="container-fluid">
-            <div class="bg-dark  pt-md-5 pb-md-5">
+            <div class="pt-md-5 pb-md-5">
                 <h1 class="text-center text-info ">Skills</h1>
                 <div class="row">
                     <div class="col-md-2"></div>
@@ -167,21 +167,21 @@
 
     <main id="project">
         <div class="containe-fluid pr">
-            <h1 class="text-center">Project</h1>
+            <h1 class="text-center text-info">Project</h1>
             <div class="project ">
                 <div class="card c">
 
-                    <a href="https://coffeebyanum.netlify.app/" class="text-decoration-none text text-center w-100"
+                    <a href="https://coffeeshopbyanum.netlify.app/" class="text-decoration-none text text-center w-100"
                         target="_blank">Coffee Template</a>
-                    <label for="#cb" class="h-100 w-100"><iframe src="https://coffeebyanum.netlify.app/" frameborder="0"
+                    <label for="#cb" class="h-100 w-100"><iframe src="https://coffeeshopbyanum.netlify.app/" frameborder="0"
                             class="h-100 w-100"></iframe></label>
                     <input type="checkbox" id="cb" class="d-none">
                     <div class="card__head">Project 1</div>
                 </div>
                 <div class="card c">
-                    <a href="https://grocowebbyanum.netlify.app/" class="text-decoration-none text text-center w-100"
+                    <a href="https://grocowebyanum.netlify.app/" class="text-decoration-none text text-center w-100"
                         target="_blank">Grocery Website</a>
-                    <label for="#cb" class="h-100 w-100"><iframe src="https://grocowebbyanum.netlify.app/"
+                    <label for="#cb" class="h-100 w-100"><iframe src="https://grocowebyanum.netlify.app/"
                             frameborder="0" class="h-100 w-100"></iframe></label>
                     <input type="checkbox" id="cb" class="d-none">
                     <div class="card__head">Project 2</div>
@@ -194,17 +194,20 @@
         </div>
     </main>
 
-    <footer id="contact" class="contact bg-light">
+    <footer id="contact" class="contact" >
 
-        <div class="container ">
+       
 
-     
+     <div class="row">
+        <div class="col-lg-4 col-md-2"></div>
+        <div class="col-lg-4 col-md-8">
+             <div class="container bg-info-subtle">
+
         <div class="form-container">
-            <form id="multiStepForm">
                
                 <div class="step active" id="step-1">
                     <div class="step-header">
-                        <h1>Your Information</h1>
+                        <h1>Contact Me</h1>
                         <p class="step-subtitle">Let's start with some basic information about you</p>
                     </div>
                     
@@ -224,7 +227,7 @@
                                     <div class="validation-icon">✓</div>
                                     <div class="tooltip">Enter your first name</div>
                                 </div>
-                                <div class="error-message">Please enter your first name</div>
+                                
                             </div>
                             <div class="form-group">
                                 <div class="input-wrapper">
@@ -233,7 +236,7 @@
                                     <div class="validation-icon">✓</div>
                                     <div class="tooltip">Enter your last name</div>
                                 </div>
-                                <div class="error-message">Please enter your last name</div>
+                                
                             </div>
                         </div>
                     </div>
@@ -253,7 +256,6 @@
                                 <div class="validation-icon">✓</div>
                                 <div class="tooltip">We'll use this to contact you</div>
                             </div>
-                            <div class="error-message">Please enter a valid email address</div>
                         </div>
 
                         <div class="form-group">
@@ -263,7 +265,6 @@
                                 <div class="validation-icon">✓</div>
                                 <div class="tooltip">Include country code if international</div>
                             </div>
-                            <div class="error-message">Please enter your phone number</div>
                         </div>
                     </div>
 
@@ -274,18 +275,9 @@
                         <button type="submit" class="btn btn-primary">Submit Application</button>
                     </div>
                 </div>
-
-                <!-- Success State -->
-                <div class="success-animation" id="successState">
-                    <div class="success-icon">✓</div>
-                    <h1>Thank You!</h1>
-                    <p class="step-subtitle">Your application has been submitted successfully. We'll get back to you.</p>
-                    <div class="button-group">
-                        <button type="button" class="btn btn-primary" onclick="resetForm()">Submit Another Application</button>
-                    </div>
-                </div>
             </form>
-        </div>
+        </div></div>
+        <div class="col-lg-4 col-md-2"></div></div>
     </div>
 
 </div>

@@ -43,10 +43,67 @@ font-size: 19px;
         .box p{
             font-size: 10px;
         }
-}
+        
+            .contact .container {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .sidebar {
+                flex: none;
+                position: relative;
+                top: auto;
+            }
+
+            .step-nav {
+                display: flex;
+                overflow-x: auto;
+                gap: 16px;
+                padding-bottom: 8px;
+            }
+
+            .step-nav-item {
+                flex: none;
+                min-width: 200px;
+                border-bottom: none;
+                border-right: 1px solid #e2e8f0;
+                padding-right: 16px;
+            }
+
+            .step-nav-item:last-child {
+                border-right: none;
+            }
+
+            .form-container {
+                padding: 32px 24px;
+            }
+
+            .form-row {
+                flex-direction: column;
+                gap: 0;
+            }
+
+            .button-group {
+                flex-direction: column;
+            }
+
+            .step h1 {
+                font-size: 28px;
+            }
+
+            .step-subtitle {
+                font-size: 16px;
+            }
+        }
 
 @media(max-width:425px){
     .matrix-text{
         font-size: 25px;
     }
+
+      .name h1:nth-child(4){
+            margin: auto;
+            font-size: 60px;
+        }
+
 }
