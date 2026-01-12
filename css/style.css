@@ -608,3 +608,24 @@ body {
 .skill{
     margin-inline: 3%;
 }
+
+.cv{
+    color: white;
+    background: #0891b2;
+    border-radius: 10px;
+    transition: 0.2s;
+
+}
+
+.cv:hover{
+    color: #06b6d4;
+    background: transparent;
+    border: 2px solid #0891b2;
+}
+
+@media (max-width: 768px) {
+    .cv{
+        background: #020617;
+    }
+
+}
